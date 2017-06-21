@@ -85,9 +85,33 @@
 			</div>
 		</div>
 	</section>
+	<section class="tarifa">
+		<div class="container">
+			<div class="row tarifario">
+				<div class="col-md-6 col-xs-12">
+					<h2>Tarifas</h2>
+					<p>Consulta las tarifas LabCar aquí</p>
+					<img src="assets/img/circulo.png" alt="circulo">
+					
+					<input id="origen" class="controls ruta" type="text" placeholder="Ingrese su punto de partida">					
+					<br>
+					<img src="assets/img/flecha.png" alt="flecha">					
+					<input id="destino" class="controls ruta" type="text" placeholder="Ingrese su destino">					
+					<button id="ruta">¡trazar ruta!</button>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-6 col-md-5" id="map">
+						
+					</div>
+					<div class="col-md-offset-6 col-md-3">
+						<button id="encuentrame">encuentrame</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXjdsdgVH_CRPWX_goHw-VqVy-01Hl_kU&libraries=places&callback=initMap" async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6g7gQ-o0klsOMUlfKFVYAgGqGIkOZvbg&libraries=places&callback=initMap" async defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>

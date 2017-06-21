@@ -99,3 +99,49 @@ body{
 	font-weight: 600;
 }
 
+.tarifa{
+	background-color: #f7b617;
+	width: 100%;
+	height: 100vh;
+}
+
+.tarifario{
+	margin: 110px 30px;
+}
+
+.ruta{
+	background-color: transparent;
+	width: 50%;
+	border: 2px solid whitesmoke;
+	border-radius: 7px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#ruta{
+	color: black;
+	border-radius: 5px;
+	border: 2px solid whitesmoke;
+	padding: 5px 13px;
+	font-weight: 600;
+	background-color: whitesmoke;
+	width: 50%;
+}
+
+#map{
+	border: 3px solid whitesmoke;
+	width: 500px;
+	height: 400px;
+	margin: 0;
+}
+
+#encuentrame{
+	margin: 15px 10px;
+	padding: 10px 15px;
+	background-color: whitesmoke;
+	border: 0;
+	font-weight: 700;
+	border-radius: 10px;
+	font-size: 15px;
+	color: black;
+}
