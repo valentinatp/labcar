@@ -1,1 +1,58 @@
-style.css
+body{
+	margin: 0;
+	padding: 0;
+	color: whitesmoke;
+}
+.hero-image{
+	background-image: url(../img/taxi.jpg);
+	height: 100vh;
+	width: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+.cuadro{
+	background-color: #f7b617;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-top: 100px;
+	font-weight: 600;
+}
+
+.cuadro button{
+	background-color: whitesmoke;
+	border-radius: 5px;
+	border: none; 
+	padding: 5px 13px;
+	font-weight: 600;
+	margin: 30px 0;
+	color: black;
+}
+
+.cuadro img{
+	padding-left: 20px;
+}
+
+.line {
+	display: inline;
+	width: 130px;
+	background-color: transparent;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px solid whitesmoke;
+}
+
+.line,#bien{
+	display: inline;
+	font-size: 15px;
+	padding: 0 30px;
+}
+
+.linea{
+	display: inline;
+}
+
