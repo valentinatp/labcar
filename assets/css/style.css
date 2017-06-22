@@ -3,6 +3,19 @@ body{
 	padding: 0;
 	color: whitesmoke;
 }
+
+.navbar-default{
+	padding: 20px;
+	background-color: whitesmoke;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #f7b617;
+}
+
 .hero-image{
 	background-image: url(../img/taxi.jpg);
 	height: 100vh;
@@ -15,10 +28,10 @@ body{
 
 .cuadro{
 	background-color: #f7b617;
-	width: 100%;
+	width: 435px;
 	height: auto;
-	padding: 20px;
-	margin-top: 100px;
+	margin-top: 30%;
+	padding: 10px 20px;
 	font-weight: 600;
 }
 
@@ -81,7 +94,7 @@ body{
 
 .cuadroDos{
 	background-color: rgba(0, 0, 0, 0.8);
-	width: 100%;
+	width: 435px;
 	height: 100vh;
 	padding: 80px 30px;
 	margin-bottom: 40px;
@@ -91,6 +104,7 @@ body{
 .cuadroDos p{
 	font-size: 16px;
 }
+
 .cuadroDos button{
 	background-color: #f7b617;
 	border-radius: 5px;
@@ -144,4 +158,60 @@ body{
 	border-radius: 10px;
 	font-size: 15px;
 	color: black;
+}
+
+footer{
+	background-color: #2b2b2b;
+	margin: 0;
+}
+
+.logo-footer{
+	padding: 30px;
+	border-bottom: 2px solid whitesmoke;
+}
+
+.ultimo{
+	margin: 0;
+	border-top: 2px solid whitesmoke;
+	padding-top: 10px;
+}
+
+.social{
+	padding-top: 300px;
+}
+
+.redes{
+	display: inline;
+	padding: 15px;
+}
+
+.redes i{
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.redes i:hover{
+	color: #f7b617;
+}
+
+.texto{
+	padding-top: 10px; 
+}
+
+.texto li{
+	padding: 10px;
+	list-style: none;
+}
+
+.texto a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.texto a:hover{
+	color: #f7b617;
+}
+
+.apli{
+	padding-top: 180px;
 }
