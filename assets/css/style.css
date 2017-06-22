@@ -82,6 +82,8 @@ body{
 	color: whitesmoke;
 }
 
+
+
 .conduce{
 	background-image: url(../img/conduce.jpg);
 	height: 100vh;
@@ -94,11 +96,28 @@ body{
 
 .cuadroDos{
 	background-color: rgba(0, 0, 0, 0.8);
-	width: 435px;
+    width: 532px;
+    height: 100vh;
+    padding: 80px 30px;
+    color: whitesmoke;
+    margin: 0
+}
+
+.cuadroDoss{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
 	height: 100vh;
 	padding: 80px 30px;
-	margin-bottom: 40px;
+	margin: 0;
 	color: whitesmoke;
+}
+
+.cuadroDoss button{
+	background-color: #f7b617;
+	border-radius: 5px;
+	border: none; 
+	padding: 5px 13px;
+	font-weight: 600;
 }
 
 .cuadroDos p{

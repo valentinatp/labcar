@@ -41,18 +41,20 @@
 			<div class="row">
 				<div class="col-md-offset-8 col-md-4 col-xs-12">
 					<div class="cuadro">
-						<h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
+						<h2 class="hidden-xs">Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
+						<h2 class="visible-xs">Comienza a viajar con</h2>
 						<br>
-						<h4 class="linea">Viaja con</h4>
+						<h4 class="linea hidden-xs">Viaja con</h4>
 						<img src="assets/img/logo-blanco.png" alt="logoBlanco" class="linea">
 						<br>
 						<br>
-						<p id="registrate">Registrate</p>
-						<input type="text" class="line">
-						<p id="bien">o bien</p>
-						<input type="text" class="line">
+						<p class="hidden-xs" id="registrate">Registrate</p>
+						<input type="text" class="line hidden-xs">
+						<p class="hidden-xs" id="bien">o bien</p>
+						<input type="text" class="line hidden-xs">
 						<br>
-						<button>Conviértete en un conductor</button>
+						<button class="hidden-xs">Conviértete en un conductor</button>
+						<button class="visible-xs">Descarga el app</button>
 					</div>
 				</div>
 			</div>
@@ -61,13 +63,23 @@
 	<section class="telefono">
 		<div class="container phone">
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-xs-12 text-center visible-xs">
+					<h2 id="nuevaApp">La nueva app</h2>
+				</div>
+				<div class="col-md-5 col-xs-12">
 					<img src="assets/img/celular.png" alt="phone">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5 hidden-xs">
 					<h2>Descarga la nueva app</h2>
 					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
 					<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente donde ir.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center visible-xs">
+					<h2>Llega a tu destino aún más rápido</h2>
 				</div>
 			</div>
 		</div>
@@ -76,10 +88,17 @@
 		<div class="container conduce">
 			<div class="row">
 				<div class="col-md-offset-8 col-md-4 col-xs-12">
-					<div class="cuadroDos">
+					<div class="cuadroDos hidden-xs">
 						<h2>Conduce cuando quieras</h2>
 						<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
 						<button>Conviértete en conductor</button>
+					</div>
+					<div class="col-xs-12 visible-xs">
+						<div class="cuadroDoss">
+							<h2>Conduce cuando quieras</h2>
+							<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+							<button>Conviértete en conductor</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -100,7 +119,7 @@
 					<button id="ruta">¡trazar ruta!</button>
 				</div>
 				<div class="row">
-					<div class="col-md-offset-6 col-md-5" id="map">
+					<div class="col-md-offset-6 col-md-5 hidden-xs" id="map">
 						
 					</div>
 					<div class="col-md-offset-6 col-md-3">
@@ -118,14 +137,21 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 social">
+				<div class="col-md-3 social hidden-xs">
 					<a class="redes"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a class="redes"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					<a class="redes"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 					<a class="redes"><i class="fa fa-apple" aria-hidden="true"></i></a>
 					<a class="redes"><i class="fa fa-play" aria-hidden="true"></i></a>
 				</div>
-				<div class="col-md-3 texto">
+				<div class="col-xs-offset-5 col-xs-6 social-xs visible-xs">
+					<a class="redes"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a class="redes"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a class="redes"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a class="redes"><i class="fa fa-apple" aria-hidden="true"></i></a>
+					<a class="redes"><i class="fa fa-play" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-3 col-xs-12 texto">
 					<ul>
 						<li><a href="#">Viaja</a></li>
 						<li><a href="#">Conduce</a></li>
@@ -136,7 +162,7 @@
 						<li><a href="#">Seguridad</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 texto">
+				<div class="col-md-3 texto hidden-xs">
 					<ul>
 						<li><a href="#">Oportunidades</a></li>
 						<li><a href="#">Nuestra historia</a></li>
@@ -148,12 +174,16 @@
 						<li><a href="#">Coders</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 texto apli">
+				<div class="col-md-3 hidden-xs texto apli">
 					<ul>
 						<li><a href="#"><img src="assets/img/app-store.png" alt="apple"></a></li>
 						<li><a href="#"><img src="assets/img/google-play.png" alt="play"></a></li>
 					</ul>
 				</div>
+				<div class="col-xs-offset-6 col-xs-3 visible-xs texto apli-xs">
+					<a href="#"><img src="assets/img/app-store.png" alt="apple"></a>
+					<a href="#"><img src="assets/img/google-play.png" alt="play"></a>
+				</div>	
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-xs-12 text-center ultimo">
